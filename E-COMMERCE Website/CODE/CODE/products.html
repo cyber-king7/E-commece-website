@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gifts360</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .product img{
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      object-fit: cover;
+    }
+    #featured > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+      background-color: black;
+    }
+    #featured > div.row.mx-auto.container > nav > ul >li:nth-child(n):hover>a{
+      background-color:orangered;
+      color: #fff;
+    }
+    .pagination a{
+      color: black;
+    }
+  </style>
+
+</head>
+<body>
+          <!-- NAV-BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gifts360</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="bar" class="fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <i onclick="window.location.href='cart.html';" class="fal fa-shopping-bag" ></i>
+            <i onclick="window.location.href='signin.html';" class="fal fa-user-circle"></i>
+            <i class="fal fa-search"></i>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- products -->
+
+  <section id="featured" class="my-5 py-5">
+    <div class="container  mt-5 py-5">
+       <h2>Products</h2>
+           <hr>
+
+    </div>
+    <div class="row mx-auto container">
+      <div onclick="window.location.href='product-detail.html';" class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3"  src='Images/Products/1.jpg' alt="">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Personalized Red Heart Cushion with Heart-Handle Mug</h5>
+        <h4 class="p-price">₹ 650.0</h4>
+        <button class="buy-btn">Buy now</button>
+      </div>
+      <div  onclick="window.location.href='product-detail2.html';" class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src='Images/Products/2.jpg' alt="">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Personalized Love Golden & Silver Metallic Couple Mugs</h5>
+        <h4 class="p-price">₹ 500.0</h4>
+        <button class="buy-btn">Buy now</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src='Images/Products/3.jpg' alt="">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">You & Me Personalized LED Bottle Lamp for Anniversary</h5>
+        <h4 class="p-price">₹ 750.0</h4>
+        <button class="buy-btn">Buy now</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src='Images/Products/4.jpg' alt="">
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Personalized Designer Wooden Photo Frame</h5>
+        <h4 class="p-price">₹ 350.0</h4>
+        <button class="buy-btn">Buy now</button>
+      </div>
+
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/5.jpg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Customizable White Ceramic Mug    </h5>
+          <h4 class="p-price">₹ 175.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/6-1.jpg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Customizable IPL masks</h5>
+          <h4 class="p-price">₹ 100.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/7.jpg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Birthday Cushion</h5>
+          <h4 class="p-price">₹ 200.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/8.jpg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Special Personalized LED Cushion</h5>
+          <h4 class="p-price">₹ 650.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/9.jpeg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Personalized Infinity Love Couple Names 3D LED Night Lamp</h5>
+          <h4 class="p-price">₹ 400.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/10.jpeg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Customized Cushion,Mug,KeyChain Combo Set</h5>
+          <h4 class="p-price">₹ 1000.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/11.png' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">3D Photo Print Personalized Moon Lamp</h5>
+          <h4 class="p-price">₹ 700.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src='Images/Products/12.jpeg' alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Personalized Wooden clock</h5>
+          <h4 class="p-price">₹ 399.0</h4>
+          <button class="buy-btn">Buy now</button>
+        </div>
+
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src='Images/Products/13.jpeg' alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Personalized Photo on Transparent Glass</h5>
+            <h4 class="p-price">₹ 190.0</h4>
+            <button class="buy-btn">Buy now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src='Images/Products/14.jpeg' alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Blue Brass Moroccan Lantern Candle Holder</h5>
+            <h4 class="p-price">₹ 450.0</h4>
+            <button class="buy-btn">Buy now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src='Images/Products/15.jpeg' alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Colorful Gold Platinum Led Rose Box</h5>
+            <h4 class="p-price">₹ 200.0</h4>
+            <button class="buy-btn">Buy now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src='Images/Products/16.jpeg' alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Personalized Photo 3D Table Lamp</h5>
+            <h4 class="p-price">₹ 299.0</h4>
+            <button class="buy-btn">Buy now</button>
+          </div>
+          <nav aria-label="...">
+            <ul class="pagination mt-5">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item " aria-current="page">
+                <a class="page-link" href="products1.html">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+  </section>
+
+
+<!-- Footer -->
+<footer class="mt-5 py-5">
+  <div class="row container mx-auto pt-5">
+
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+             <h1>Gifts360</h1>
+             <p class="pt-3">An online gift shop for unique, funny and creative gifts for guys and girls.
+               Explore the most unique gifts for any kind of person, or occasion.</p>
+     </div>
+
+     <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+       <h3 class="pb-2">Download Our App</h3>
+       <p>Download App for Android and ios mobile phone.</p>
+       <div class="app-logo">
+           <img src="images/play-store.png">
+           <img src="images/app-store.png">
+       </div>
+     </div>
+
+     <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+       <h5 class="pb-2">Follow us:</h5>
+       <ul class="text-uppercase list-unstyled">
+         <li><a class="grey-text text-lighten-3" href="www.facebook.com">@Facebook</a></li>
+         <li><a class="grey-text text-lighten-3" href="www.instagram.com">@Instagram </a></li>
+         <li><a class="grey-text text-lighten-3" href="www.twitter.com">@Twitter</a></li>
+         <li><a class="grey-text text-lighten-3" href="www.whatsapp.com">@whatsapp</a>
+           </li>
+       </ul>
+     </div>
+
+     <div class="footer-one col-lg-3 col-md-6 col-12 ">
+       <div class="box">
+         <h3>Newsletter</h3>
+         <p>Subscribe us for latest updates</p>
+
+             <input type="email" placeholder="your email">
+             <br>
+             <button class="buy-btn">Subscribe</button>
+       </div>
+    </div>
+ </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
